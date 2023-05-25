@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         style="@style/textTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/boton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
@@ -43,19 +43,20 @@
         tools:layout_editor_absoluteY="563dp" />
 
     <Button
-        android:id="@+id/button2"
+
+        android:id="@+id/boton2"
         android:layout_width="95dp"
         android:layout_height="49dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="28dp"
         android:text="Filter"
-        android:background="@color/red"
+        android:backgroundTint="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/text_buscar"
         android:layout_width="241dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
@@ -68,8 +69,8 @@
         android:textSize="20dp"
         android:background="@color/background_search"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/boton2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
